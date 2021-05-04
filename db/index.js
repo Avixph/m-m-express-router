@@ -5,7 +5,7 @@ require("dotenv").config();
 let MONGODB_URI =
   process.env.PROD_MONGODB ||
   process.env.MONGODB_URI ||
-  `mongodb+srv://Avixph:${process.env.DB_Cluster_Password}@cluster0.6vj5i.mongodb.net/plantsDatabase?retryWrites=true&w=majority&ssl=true`;
+  process.env.MONGODB_Cluster_Url;
 
 mongoose
   .connect(MONGODB_URI, {
