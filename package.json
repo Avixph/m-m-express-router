@@ -12,8 +12,10 @@
     "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongoose": "^5.12.6",
+    "mongoose": "^5.12.7",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.7"
-  }
+  },
+  "repository": "git@github.com:Avixph/m-m-express-router.git",
+  "author": "Angel B. Fernandez <25628695+Avixph@users.noreply.github.com>"
 }
